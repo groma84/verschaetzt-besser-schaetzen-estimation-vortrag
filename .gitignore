@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+*.local
+.remote-assets
+components.d.ts
+
+recording-ar-chair-placement.mp4
+com.oculus.browser-20230501-221930.mp4
+.fake
