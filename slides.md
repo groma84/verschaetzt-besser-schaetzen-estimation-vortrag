@@ -5,8 +5,8 @@ defaults:
   layout: "default-with-footer"
 
 # infos for the footer (on slides with the default-with-footer layout)
-occasion: "Teamday Juli 2023"
-occasionLogoUrl: "images/mat-standard-rgb.png"
+occasion: "enterJS 2024"
+occasionLogoUrl: "images/enterjs.svg"
 company: "MATHEMA GmbH"
 presenter: "Martin Grotz"
 contact: "martin.grotz@mathema.de"
@@ -19,7 +19,7 @@ highlighter: shiki
 lineNumbers: true
 
 info: |
-  ## Verschätzt - Fehler beim Schätzen
+  ## Verschätzt - Warum wir beim Schätzen meistens daneben liegen und wie es besser geht
 
 
 # page transition
@@ -33,7 +33,7 @@ layout: cover
 
 # Verschätzt! 
 
-### Fehlerquellen beim Schätzen
+### Warum wir beim Schätzen meistens daneben liegen und wie es besser geht
 
 ##### Martin Grotz, MATHEMA GmbH
 
@@ -42,6 +42,10 @@ layout: cover
 ## Buch
 
 <img src="/images/estimation-book-cover.jpg" class="w-80 object-fit-contain" />
+
+---
+
+## Agenda
 
 ---
 
@@ -101,7 +105,7 @@ Wie lange wird X dauern? Wie viel wird X kosten?
 
 ---
 
-## Projektsteuerung rettet alles!
+## "Projektsteuerung rettet alles!"
 
 <v-clicks>
 
