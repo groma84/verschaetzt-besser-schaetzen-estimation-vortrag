@@ -33,19 +33,35 @@ layout: cover
 
 # Verschätzt! 
 
-### Warum wir beim Schätzen meistens daneben liegen und wie es besser geht
+### Warum wir beim Schätzen meistens daneben liegen... 
+
+### und wie es besser geht
 
 ##### Martin Grotz, MATHEMA GmbH
 
----
 
-## Buch
-
-<img src="/images/estimation-book-cover.jpg" class="w-80 object-fit-contain" />
 
 ---
 
 ## Agenda
+
+- Definitionen
+- Probleme
+- Lösungen
+
+---
+
+# Über was reden wir nicht
+
+- Einzelne Arbeitspakete abschätzen
+- Agile Schätzmethoden
+- Riesenprojekte
+
+---
+
+# Definitionen
+
+<img src="/images/definitionen-pisit-heng-FQvadXmA524-unsplash.jpg" class="w-120 object-fit-contain">
 
 ---
 
@@ -53,17 +69,17 @@ layout: cover
 
 ### Target/Ziel
 
-Gewünschtes Geschäftsziel: "wir brauchen X um Y, **damit Z**"
+Gewünschtes Geschäftsziel: "wir brauchen X, damit Y"
 
 
 ### Commitment
 
-Zusage: Wir liefern X zu Y in Qualität Q
+Zusage: "Wir liefern X zum Zeitpunkt T in Qualität Q"
 
 
 ### Estimate/Schätzung
 
-Wie lange wird X dauern? Wie viel wird X kosten?
+Fragen: "Wie lange wird X dauern? Wie viel wird X kosten?"
 
 
 ---
@@ -80,7 +96,7 @@ Wie lange wird X dauern? Wie viel wird X kosten?
 
 </div>
 
-<div v-click>
+<div class="mt-7" v-click>
 
 ### Plan
 
@@ -92,28 +108,27 @@ Wie lange wird X dauern? Wie viel wird X kosten?
 
 ---
 
-## Wahrscheinlichkeiten und Gefahren
+## Nutzen einer guten Schätzung
 
-<v-clicks>
+<v-click>
 
-- Exakte Schätzung: "Es dauert 60 PT" 💣
-- Glockenkurve 💣
-- Es gibt eine untere Grenze, wie gut es laufen kann, aber keine obere Grenze, wie schlecht😲
+Gute Schätzungen bringen:
+- Echte Statusinformation
+- Höhere Qualität
+- Einfachere Kommunikation
+- Planungssicherheit (Kunde und wir!)
+- Vertrauen
+- Erkannte Abweichungen liefern konkreten Anlass zur Risikobewertung
 
-</v-clicks>
+</v-click>
 
 
 ---
 
-## "Projektsteuerung rettet alles!"
+# Probleme
 
-<v-clicks>
+<img src="/images/probleme-kelly-sikkema-CbZC2KVnK8s-unsplash.jpg" class="w-120 object-fit-contain">
 
-- bringt Schätzung, Ziel und Commitment zusammen
-- Gute Projektsteuerung kann bis zu 20% Fehler bei der Schätzung ausgleichen
-- Je größer die Abweichungen, desto mehr Energie und Arbeit braucht die Steuerung
-
-</v-clicks>
 
 ---
 
@@ -121,7 +136,7 @@ Wie lange wird X dauern? Wie viel wird X kosten?
 
 <v-clicks>
 
-- Herausfinden, ob Ziel und Aufwand nah genug beieinander liegen, um mit Hilfe der Projektsteuerung realistisch verknüpft werden zu können 
+- "Herausfinden, ob Ziel, Plan und Aufwand nah genug beieinander liegen, um mit Hilfe der Projektsteuerung realistisch verknüpft werden zu können"
 - Dem Projektmanager eine solide Basis für Entscheidungen liefern
 
 </v-clicks>
@@ -134,9 +149,39 @@ Wie lange wird X dauern? Wie viel wird X kosten?
 
 - Aussagen wie "zu 90% sicher" machen nur Sinn, wenn es eine Faktenbasis gibt
 - Sicherheit wird fast immer zu optimistisch angegeben (Realität: Leute denken 90%, sind aber eher 30% Treffsicherheit)
-- je unsicherer, desto größer muss die Spannweite sein
+- Schätzung: je unsicherer, desto größer muss die Spannweite sein
 
 </v-clicks>
+
+
+
+---
+
+## Wahrscheinlichkeiten und Gefahren
+
+<v-clicks>
+
+- Exakte Schätzung: "Es dauert 62 PT" 💣
+- Erfolgschance von Projekten: Glockenkurve? 💣
+- Es gibt eine untere Grenze, wie gut es laufen kann, **aber keine obere Grenze, wie schlecht**
+- "Diseconomy of scale" 
+
+<img src="/images/alles-kann-schlecht-werden-arash-payam-ww9DO6PsTBE-unsplash.jpg" class="mt-6 w-80 object-fit-contain">
+
+</v-clicks>
+
+---
+
+## "Die Projektsteuerung rettet alles!"
+
+<v-clicks>
+
+- Projektsteuerung bringt Schätzung, Ziel und Commitment zusammen
+- Gute Projektsteuerung kann bis zu 20% Fehler bei der Schätzung ausgleichen
+- Je größer die Abweichungen, desto mehr Energie und Arbeit braucht die Steuerung
+
+</v-clicks>
+
 
 ---
 
@@ -166,23 +211,11 @@ Wie lange wird X dauern? Wie viel wird X kosten?
 
 <div v-click>
 
-- Praktisch alle Schätzungen sind zu klein!
-- Durchschnittliche echte Projektdauer: Schätzung +120%
-- Durchschnittliche echte Projektkosten: Schätzung +100%
+- Praktisch alle Schätzungen sind zu <span style="font-size: 1rem;">klein</span>!
+- Durchschnittliche echte Projekt**dauer**: Schätzung <span style="color: red; font-weight: bold;">+120%</span>
+- Durchschnittliche echte Projekt**kosten**: Schätzung <span  style="color: red; font-weight: bold;">+100%</span>
 
 </div>
-
----
-
-## Nutzen
-
-Gute Schätzungen bringen:
-- Echte Statusinformation
-- Höhere Qualität
-- Einfachere Kommunikation
-- Planungssicherheit (Kunde und wir!)
-- Vertrauen
-- Erkannte Abweichungen liefern konkreten Anlass zur Risikobewertung
 
 ---
 
@@ -199,11 +232,9 @@ Gute Schätzungen bringen:
 
 ---
 
-## Unzureichende Informationen
+## Unsicherheitstrichter
 
-Unsicherheitstrichter
-
-<img src="/images/cone-of-uncertainty-slide8-3016743625.png" class="w-110 object-fit-contain" />
+<img src="/images/unsicherheitstrichter.jpg" class="w-130 object-fit-contain" />
 
 
 
@@ -216,8 +247,7 @@ Unsicherheitstrichter
 - best-case!
 - den Trichter schmaler bekommen ist kein Automatismus!
 - Unsicherheitsfaktoren immer mitdenken
-- ggf. aufteilen: Person A schätzt "worst-case und best-case", Person B "wie unsicher ist es jeweils"
-- **Problem: Commitment zu früh im Trichter abgegeben**
+- **Spannungsfeld: Commitment (zu) früh im Trichter abgeben**
 
 </v-clicks>
 
@@ -225,9 +255,9 @@ Unsicherheitstrichter
 
 ## Eigene Fähigkeiten
 
-- Schätzung basiert auf "Seniors machen es"
-- Umsetzung wird nicht (nur) von Seniors gemacht
-- Abweichung zwischen Schätzung und echter Dauer  - muss nicht schlimm sein, muss aber berücksichtigt werden (Plan!)
+- Schätzung basiert z.B. auf "Seniors machen es"
+- Umsetzung wird aber nicht nur von Seniors gemacht
+- Abweichung zwischen Schätzung und echter Dauer  - muss nicht schlimm sein, muss aber berücksichtigt werden (Plan!, Abrechnung)
 
 ---
 
@@ -252,13 +282,8 @@ Nebenaufgaben werden oft vergessen:
   - Onboarding
   - Kommunikation mit dem Kunden
   - Regelmäßige Meetings
+  - Änderungen nach Reviews
   - ...
-
-</div>
-
-<div v-click>
-
-Zahlen aus dem Buch: ca. 30% der Aufgaben (und damit Aufwände) werden von Entwicklern routinemäßig bei der Schätzung vergessen
 
 </div>
 
@@ -295,17 +320,136 @@ Manche Dinge erhöhen den Aufwand nicht, aber die Projektdauer schon:
 
 ---
 
-## Meine eigenen Erfahrungen
+# Lösungen
 
-- Uni Bamberg (abgeschlossen)
-- Leistritz (läuft noch)
-- CTI Systems Angular PoC (abgeschlossen)
-- CTI Systems Code-Optimierung (noch nicht gestartet)
+<img src="/images/loesungen-riccardo-annandale-7e2pe9wjL9M-unsplash.jpg" class="w-120 object-fit-contain" />
 
 ---
 
-## Wie geht es besser?
+Verfahren
+- Zählen und Rechnen, Historische Daten
+- Expertenschätzung, Gruppenreview
+- Zerlegen und Zusammensetzen
+- Analogien und Proxys
+- Toolgestützt
+- Formale Methoden
 
-<img src="/images/to-be-continued-unsplash.jpg" class="w-130 object-fit-contain" />
+---
 
+## Zählen und Rechnen
+
+---
+
+## Historische Daten
+
+---
+
+## Expertenschätzung
+
+---
+
+## Review in der Gruppe
+
+---
+
+## Zerlegen und Zusammensetzen
+
+---
+
+## Analogien und Proxys
+
+---
+
+## Toolgestützt
+
+- NDepend, JArchitect, ... für bestehende Software
+- Simulation des Projektverlaufs
+- Sanity Check von mit anderen Methoden erstellten Schätzungen
+- Achtung: SHISHO ("Shit in, shit out")
+
+---
+
+## Formale Methoden
+
+### COCOMO
+
+- Constructive Cost Model
+- Mathematische Formeln und viele (zuviele?) Rechenfaktoren
+- Schwierig bei vielen Anforderungsänderungen
+
+### Function Point Analyse
+
+- ISO/IEC 20926
+- Fokus auf fachlich-funktionale Anforderungen
+- Achtung: Das Drumherum nicht vergessen
+
+---
+
+# Estimate Sanity Check
+
+<div style="display: flex;" class="mb-5">
+    <ul style="font-size: 0.8rem;">
+      <li>Wurde ein definierter Prozess zur Erstellung genutzt?</li>
+      <li>War die Erstellung frei von externem Druck/externer Einflussnahme?</li>
+      <li>Wenn Sachen verhandelt wurde, ging es nur um Eingabedaten für die Schätzung?</li>
+      <li>Entspricht die Präzision der Angabe der Projektphase? (Unsicherheitstrichter)</li>
+      <li>Wurden unterschiedliche Schätztechniken eingesetzt, die zu ähnlichen Ergebnissen kamen?</li>
+      <li>Ist die angenommene Produktivität der Projektbeteiligten aus der Vergangenheit begründbar?</li>
+    </ul>
+    <ul style="font-size: 0.8rem;">
+      <li>Ist die Dauer des Plans mindestens 2x der Aufwand?</li>
+      <li>Waren die Leute, die später an der Umsetzung beteiligt sind, auch an der Schätzung beteiligt?</li>
+      <li>Wurde die Schätzung nochmal von mindestens einem Experten geprüft?</li>
+      <li>Enthält die Schätzung einen Puffer für Projektrisiken?</li>
+      <li>Gehört die Schätzung zu einer Reihe von immer genaueren Schätzungen im Projektverlauf?</li>
+      <li>Wurde an alle Aufgaben innerhalb des Projekts und innerhalb jedes Arbeitspakets gedacht?</li>
+    </ul>
+
+</div>
+
+### Wertung
+
+<ul  style="font-size: 0.8rem;">
+<li>10+ -> super</li>
+<li>7-9 -> tauglich für die Projektsteuerung, wahrscheinlich zu optimistisch geschätzt</li>
+<li>0-6 -> in der Praxis nutzlos</li>
+</ul>
+
+<p  style="font-size: 0.7rem; margin-top: 0; font-style: italic;">The original "Estimate Sanity Check" is from Software Estimation by Steve McConnell (Microsoft Press, 2006) and is copyrighted in 2006 by Steve McConnell. All Rights Reserved. Permission to copy this quiz is granted provided that this copyright notice is included.</p>
+
+
+---
+
+## Buch
+
+<img src="/images/estimation-book-cover.jpg" class="w-80 object-fit-contain" />
+
+---
+
+## Kontakt
+
+<div class="flex">
+  <img alt="Martin Grotz Gesicht auf Briefkasten" src="/images/martin_auf_briefkasten.jpg"  class="w-60 object-fit-contain"/>
+
+  <table class="ml-4">
+  <tbody>
+    <tr>
+      <td>E-Mail</td>
+      <td><a href="mailto:martin.grotz@mathema.de">martin.grotz@mathema.de</a></td>
+    </tr>
+     <tr>
+      <td>LinkedIn</td>
+      <td><a href="https://www.linkedin.com/in/martin-grotz-6780332b5/">https://www.linkedin.com/in/martin-grotz-6780332b5/</a></td>
+    </tr>
+    <tr>
+      <td>MATHEMA Github</td>
+      <td><a href="https://github.com/MATHEMA-GmbH/">MATHEMA-GmbH</a></td>
+    </tr>
+    <tr>
+      <td>Privates Github</td>
+      <td><a href="https://github.com/groma84/">groma84</a></td>
+    </tr>
+  </tbody>
+  </table>
+</div>
 

@@ -8,7 +8,7 @@
       </div>
 
       <div class="w-full flex justify-center">
-        <img :src="$slidev.configs.occasionLogoUrl" alt="Occasion Logo" class="w-60 object-fit-contain" />
+        <img :src="$slidev.configs.occasionLogoUrl" alt="Occasion Logo" class="w-20 object-fit-contain" />
       </div>
     </div>
 
