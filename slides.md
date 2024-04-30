@@ -53,7 +53,7 @@ layout: cover
 
 # Über was reden wir nicht
 
-- Einzelne Arbeitspakete abschätzen
+- Einzelne Arbeitspakete für einen Sprint abschätzen
 - Agile Schätzmethoden
 - Riesenprojekte
 
@@ -67,19 +67,29 @@ layout: cover
 
 ## Definitionen
 
+<div v-click>
+
 ### Target/Ziel
 
 Gewünschtes Geschäftsziel: "wir brauchen X, damit Y"
 
+</div>
+
+<div v-click>
 
 ### Commitment
 
 Zusage: "Wir liefern X zum Zeitpunkt T in Qualität Q"
 
+</div>
+
+<div v-click>
 
 ### Estimate/Schätzung
 
 Fragen: "Wie lange wird X dauern? Wie viel wird X kosten?"
+
+</div>
 
 
 ---
@@ -145,13 +155,13 @@ Gute Schätzungen bringen:
 
 ## Wie sicher bist du dir?
 
-<v-clicks>
+<v-click>
 
 - Aussagen wie "zu 90% sicher" machen nur Sinn, wenn es eine Faktenbasis gibt
 - Sicherheit wird fast immer zu optimistisch angegeben (Realität: Leute denken 90%, sind aber eher 30% Treffsicherheit)
 - Schätzung: je unsicherer, desto größer muss die Spannweite sein
 
-</v-clicks>
+</v-click>
 
 
 
@@ -166,21 +176,25 @@ Gute Schätzungen bringen:
 - Es gibt eine untere Grenze, wie gut es laufen kann, **aber keine obere Grenze, wie schlecht**
 - "Diseconomy of scale" 
 
+</v-clicks>
+
+<v-click>
+
 <img src="/images/alles-kann-schlecht-werden-arash-payam-ww9DO6PsTBE-unsplash.jpg" class="mt-6 w-80 object-fit-contain">
 
-</v-clicks>
+</v-click>
 
 ---
 
 ## "Die Projektsteuerung rettet alles!"
 
-<v-clicks>
+<v-click>
 
 - Projektsteuerung bringt Schätzung, Ziel und Commitment zusammen
 - Gute Projektsteuerung kann bis zu 20% Fehler bei der Schätzung ausgleichen
 - Je größer die Abweichungen, desto mehr Energie und Arbeit braucht die Steuerung
 
-</v-clicks>
+</v-click>
 
 
 ---
@@ -221,14 +235,14 @@ Gute Schätzungen bringen:
 
 ## Fehlerquellen
 
-<v-clicks>
+<v-click>
 
-1) Unzureichende Informationen für die Schätzung
+1) Unzureichende Informationen für die genaue Schätzung
 2) Falsche Einschätzung der eigenen Fähigkeiten
 3) Zuviel Veränderung im Projekt/in den Requirements
 4) Schlechter Schätzprozess
 
-</v-clicks>
+</v-click>
 
 ---
 
@@ -242,30 +256,38 @@ Gute Schätzungen bringen:
 
 ## Unsicherheitstrichter
 
-<v-clicks>
+<v-click>
 
 - best-case!
 - den Trichter schmaler bekommen ist kein Automatismus!
 - Unsicherheitsfaktoren immer mitdenken
 - **Spannungsfeld: Commitment (zu) früh im Trichter abgeben**
 
-</v-clicks>
+</v-click>
 
 ---
 
 ## Eigene Fähigkeiten
 
+<v-click>
+
 - Schätzung basiert z.B. auf "Seniors machen es"
 - Umsetzung wird aber nicht nur von Seniors gemacht
 - Abweichung zwischen Schätzung und echter Dauer  - muss nicht schlimm sein, muss aber berücksichtigt werden (Plan!, Abrechnung)
+
+</v-click>
 
 ---
 
 ## Zuviel Veränderung
 
+<v-click>
+
 - Unklare Requirements
 - Sich ändernde Requirements
 - NASA plant immer 40% dafür extra ein
+
+</v-click>
 
 ---
 
@@ -326,11 +348,10 @@ Manche Dinge erhöhen den Aufwand nicht, aber die Projektdauer schon:
 
 ---
 
-Verfahren
+## Verfahren
+
 - Zählen und Rechnen, Historische Daten
 - Expertenschätzung, Gruppenreview
-- Zerlegen und Zusammensetzen
-- Analogien und Proxys
 - Toolgestützt
 - Formale Methoden
 
@@ -338,25 +359,212 @@ Verfahren
 
 ## Zählen und Rechnen
 
+<v-clicks>
+
+- man "zählt" etwas, das stark mit dem Aufwand korreliert (z.B. Anzahl an Formularen, Anzahl an anzubindenen Services, ...)
+- man kennt den Aufwand pro Ding
+- Gesamtaufwand: Anzahl * Aufwand
+- Ideal: Es gibt mindestens 20 davon, damit sich eventuelle Fehler rausmitteln können
+
+</v-clicks>
+
 ---
 
 ## Historische Daten
+
+<v-clicks>
+
+- Vorbedingung für Zählen und Rechnen: Man hat Daten aus der Vergangenheit
+- Vorbedingung für nach und nach besser werdende Schätzungen: Man hat Daten aus der Vergangenheit
+- Je besser man alte Daten erfasst hat (aus dem gleichen Projekt und aus ähnlichen Projekten), desto mehr Möglichkeiten hat man
+- Regelmäßiger Abgleich Schätzung und echte Ergebnisse, um Fehler und Fehlerquellen zu finden
+
+</v-clicks>
 
 ---
 
 ## Expertenschätzung
 
+<v-click>
+
+- "hinsetzen, nachdenken, abschätzen"
+- "Umsetzungsexperte" vs. "Schätzexperte"
+- Best case, worst case, most likely case
+- Tipp: sich Zeit nehmen ("1% Regel"), nicht sofort auf Zuruf Einschätzung abgeben
+
+</v-click>
+
+---
+
+## Expected case berechnen
+
+- aus Best case, worst case, most likely case für spätere Rechnungen den Expected case pro Paket berechnen:
+
+<div class="mt-5">
+  <pre><code>Expected Case = (Best Case + (3 * Most Likely Case) + (2 * Worst Case)) / 6</code></pre>
+</div>
+
+---
+
+## Bottom-up
+
+<v-click>
+
+- je feiner die Aufgliederung in Einzelpakete ist, desto weniger wird vergessen
+- Checklisten benutzen
+- je früher im Unsicherheitstrichter, desto gröber sind die Pakete. Das muss sich auch in der Schätzung widerspiegeln
+
+</v-click>
+
+---
+
+## Mathematische Tücken
+
+<v-click>
+
+- einfach nur die Best Case und Worst Case Werte addieren klappt nicht!
+- Stattdessen ein bisschen Mathe:
+- $StdDev_{p} = \frac{(WorstCase_{p} - BestCase_{p})}{TeilerJeNachVertrauen}$
+- Danach: $Varianz_{p} = StdDev_{p}^2$
+- Am Ende: $StdDev = \sqrt{\sum{Varianz_{p}}}$
+
+</v-click>
+
+---
+
+## Teiler je nach Vertrauen
+
+<table style="line-height: 0.8rem; font-size: 0.8rem;">
+  <tbody>
+    <tr>
+      <th>"% wirklich in 
+      geschätzter Spannbreite"
+      </th>
+      <th>
+      Teiler in Standardabweichung
+      </th>
+    </tr>
+    <tr>
+      <td>10</td><td>0,25</td>
+    </tr>
+    <tr>
+      <td>20</td><td>0,51</td>
+    </tr>
+    <tr>
+      <td>30</td><td>0,77</td>
+    </tr>
+    <tr>
+      <td>40</td><td>1,00</td>
+    </tr>
+    <tr>
+      <td>50</td><td>1,40</td>
+    </tr>
+    <tr>
+      <td>60</td><td>1,70</td>
+    </tr>
+    <tr>
+      <td>70</td><td>2,10</td>
+    </tr>
+    <tr>
+      <td>80</td><td>2,60</td>
+    </tr>
+    <tr>
+      <td>90</td><td>3,30</td>
+    </tr>
+    <tr>
+      <td>99,7</td><td>6,00</td>
+    </tr>
+  </tbody>
+</table> 
+
+
+---
+
+## Konfidenzintervalle
+
+- Mit wieviel Wahrscheinlichkeit möchte ich unter dem Wert bleiben?
+- Daraus bestimmt sich der Faktor für die Gesamt-Standardabweichung
+- Die Einheiten müssen alle gleich sein (h, PT, Wochen, ...)
+
+---
+
+## Konfidenzintervalle
+
+- $\sum{ExpectedCase} + (Faktor * StdDev)$
+
+<table style="line-height: 0.8rem; font-size: 0.8rem;">
+  <tbody>
+    <tr>
+      <th>Percentage confident</th>
+      <th>Faktor
+      </th>
+    </tr>
+    <tr>
+      <td>10</td><td>-1,28</td>
+    </tr>
+    <tr>
+      <td>20</td><td>-0,84</td>
+    </tr>
+    <tr>
+      <td>30</td><td>-0,52</td>
+    </tr>
+    <tr>
+      <td>40</td><td>-0,25</td>
+    </tr>
+    <tr>
+      <td>50</td><td>0</td>
+    </tr>
+    <tr>
+      <td>60</td><td>0,25</td>
+    </tr>
+    <tr>
+      <td>70</td><td>0,52</td>
+    </tr>
+    <tr>
+      <td>80</td><td>0,84</td>
+    </tr>
+    <tr>
+      <td>90</td><td>1,28</td>
+    </tr>
+    <tr>
+      <td>98</td><td>2</td>
+    </tr>
+  </tbody>
+</table> 
+
+---
+
+## Geschafft
+
+<img src="/images/mathe-geschafft-dan-cristian-padure-xJLN32FO7AY-unsplash.jpg" class="w-110 object-fit-contain" />
+
+In der Praxis: Tools benutzen (z.B. ein Excel-Sheet)
+
 ---
 
 ## Review in der Gruppe
 
+<v-click>
+
+- Umsetzungsexperten UND Schätzexperten
+- erst jeder für sich, dann austauschen und besprechen
+- Formaler Prozess: [Wideband Delphi](https://en.wikipedia.org/wiki/Wideband_delphi)
+
+</v-click>
+
 ---
 
-## Zerlegen und Zusammensetzen
+## Wideband Delphi
 
----
+0) Koordinator und Schätzexperten bestimmen
+1) Koordinator verschickt die Spezifikation und ein Schätzformular
+2) Meeting mit allen, um Unklarheiten in der Spezifikation zu besprechen
+3) Jeder Experte füllt das Schätzformular **anonym** aus
+4) Koordinator sammelt die Ergebnisse ein, führt sie zusammen und verteilt die Menge aller Schätzungen
+5) Meeting mit allen, um extreme Abweichungen in den Schätzungen zu besprechen
+6) Schritt 3-5 wiederholen, bis es keine extremen Abweichungen mehr gibt
+7) Meeting mit allen, um die endgültige gemeinsame Abschätzung einstimmig anzunehmen
 
-## Analogien und Proxys
 
 ---
 
@@ -371,17 +579,25 @@ Verfahren
 
 ## Formale Methoden
 
+<div v-click> 
+
 ### COCOMO
 
 - Constructive Cost Model
 - Mathematische Formeln und viele (zuviele?) Rechenfaktoren
 - Schwierig bei vielen Anforderungsänderungen
 
+</div>
+
+<div class="mt-7" v-click>
+
 ### Function Point Analyse
 
 - ISO/IEC 20926
 - Fokus auf fachlich-funktionale Anforderungen
 - Achtung: Das Drumherum nicht vergessen
+
+</div>
 
 ---
 
@@ -407,22 +623,42 @@ Verfahren
 
 </div>
 
+<div v-click>
+
 ### Wertung
 
-<ul  style="font-size: 0.8rem;">
-<li>10+ -> super</li>
-<li>7-9 -> tauglich für die Projektsteuerung, wahrscheinlich zu optimistisch geschätzt</li>
-<li>0-6 -> in der Praxis nutzlos</li>
+<ul style="font-size: 0.8rem;">
+  <li>10+ -> super</li>
+  <li>7-9 -> tauglich für die Projektsteuerung, wahrscheinlich zu optimistisch geschätzt</li>
+  <li>0-6 -> in der Praxis nutzlos</li>
 </ul>
 
-<p  style="font-size: 0.7rem; margin-top: 0; font-style: italic;">The original "Estimate Sanity Check" is from Software Estimation by Steve McConnell (Microsoft Press, 2006) and is copyrighted in 2006 by Steve McConnell. All Rights Reserved. Permission to copy this quiz is granted provided that this copyright notice is included.</p>
+</div>
+
+<p style="font-size: 0.7rem; margin-top: 0; font-style: italic;">The original "Estimate Sanity Check" is from Software Estimation by Steve McConnell (Microsoft Press, 2006) and is copyrighted in 2006 by Steve McConnell. All Rights Reserved. Permission to copy this quiz is granted provided that this copyright notice is included.</p>
 
 
 ---
 
-## Buch
+## Kommunikation
 
-<img src="/images/estimation-book-cover.jpg" class="w-80 object-fit-contain" />
+<v-click>
+
+- keine falsche Präzision!
+- Je unsicherer, desto größer muss die Bandbreite sein
+- Abgleich mit dem Plan
+- die unwahrscheinlichen Fälle weglassen
+
+</v-click>
+
+---
+
+## Bücher
+
+<div style="display: flex;">
+  <img src="/images/estimation-book-cover.jpg" class="w-80 object-fit-contain" />
+  <img src="/images/optimales-projektmanagement-cover.jpg" class="w-70 ml-7 object-fit-contain" />
+</div>
 
 ---
 

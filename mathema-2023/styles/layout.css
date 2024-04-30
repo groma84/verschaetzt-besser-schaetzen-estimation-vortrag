@@ -66,6 +66,11 @@
     padding-bottom: 1rem;
     padding-left: 0.5rem;
   }
+
+  td {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
 }
 
 .slidev-layout.footer {
