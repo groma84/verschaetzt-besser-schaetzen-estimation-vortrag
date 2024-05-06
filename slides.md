@@ -400,9 +400,7 @@ Manche Dinge erhöhen den Aufwand nicht, aber die Projektdauer schon:
 
 - aus Best case, worst case, most likely case für spätere Rechnungen den Expected case pro Paket berechnen:
 
-<div class="mt-5">
-  <pre><code>Expected Case = (Best Case + (3 * Most Likely Case) + (2 * Worst Case)) / 6</code></pre>
-</div>
+$Expected Case = \frac{Best Case + (3 * Most Likely Case) + (2 * Worst Case)}{6}$
 
 ---
 
@@ -675,7 +673,7 @@ In der Praxis: Tools benutzen (z.B. ein Excel-Sheet)
     </tr>
      <tr>
       <td>LinkedIn</td>
-      <td><a href="https://www.linkedin.com/in/martin-grotz-6780332b5/">https://www.linkedin.com/in/martin-grotz-6780332b5/</a></td>
+      <td><a href="https://www.linkedin.com/in/martin-grotz/">https://www.linkedin.com/in/martin-grotz/</a></td>
     </tr>
     <tr>
       <td>MATHEMA Github</td>
