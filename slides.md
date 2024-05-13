@@ -43,7 +43,15 @@ layout: cover
 
 ---
 
-## Agenda
+## Über was reden wir nicht
+
+- Einzelne Arbeitspakete für einen Sprint abschätzen
+- Agile Schätzmethoden
+- Großprojekte
+
+---
+
+## Über was reden wir
 
 - Definitionen
 - Probleme
@@ -51,13 +59,6 @@ layout: cover
 
 ---
 
-# Über was reden wir nicht
-
-- Einzelne Arbeitspakete für einen Sprint abschätzen
-- Agile Schätzmethoden
-- Riesenprojekte
-
----
 
 # Definitionen
 
@@ -65,7 +66,7 @@ layout: cover
 
 ---
 
-## Definitionen
+## Definitionen: Ziel, Schätzung, Commitment 
 
 <div v-click>
 
@@ -77,17 +78,17 @@ Gewünschtes Geschäftsziel: "wir brauchen X, damit Y"
 
 <div v-click>
 
-### Commitment
+### Estimate/Schätzung
 
-Zusage: "Wir liefern X zum Zeitpunkt T in Qualität Q"
+Fragen: "Wie lange wird X dauern? Wie viel wird X kosten?"
 
 </div>
 
 <div v-click>
 
-### Estimate/Schätzung
+### Commitment
 
-Fragen: "Wie lange wird X dauern? Wie viel wird X kosten?"
+Zusage: "Wir liefern X zum Zeitpunkt T in Qualität Q"
 
 </div>
 
@@ -126,7 +127,7 @@ Gute Schätzungen bringen:
 - Echte Statusinformation
 - Höhere Qualität
 - Einfachere Kommunikation
-- Planungssicherheit (Kunde und wir!)
+- Planungssicherheit (Kunde und wir! Kunde hat es oft lieber etwas später und dafür zuverlässig)
 - Vertrauen
 - Erkannte Abweichungen liefern konkreten Anlass zur Risikobewertung
 
@@ -158,8 +159,8 @@ Gute Schätzungen bringen:
 <v-click>
 
 - Aussagen wie "zu 90% sicher" machen nur Sinn, wenn es eine Faktenbasis gibt
-- Sicherheit wird fast immer zu optimistisch angegeben (Realität: Leute denken 90%, sind aber eher 30% Treffsicherheit)
-- Schätzung: je unsicherer, desto größer muss die Spannweite sein
+- Sicherheit wird fast immer zu optimistisch angegeben (Realität: Leute denken 90%, sind aber eher 30% treffsicher)
+- Folge: Schätzung: je unsicherer, desto größer muss die Spannweite sein
 
 </v-click>
 
@@ -274,6 +275,7 @@ Gute Schätzungen bringen:
 - Schätzung basiert z.B. auf "Seniors machen es"
 - Umsetzung wird aber nicht nur von Seniors gemacht
 - Abweichung zwischen Schätzung und echter Dauer  - muss nicht schlimm sein, muss aber berücksichtigt werden (Plan!, Abrechnung)
+- "wir machen das jetzt schon zum x-ten Mal, das geht jetzt bestimmt schneller!"
 
 </v-click>
 
@@ -285,7 +287,7 @@ Gute Schätzungen bringen:
 
 - Unklare Requirements
 - Sich ändernde Requirements
-- NASA plant immer 40% dafür extra ein
+- NASA plant immer +40% dafür **extra** ein
 
 </v-click>
 
@@ -361,7 +363,7 @@ Manche Dinge erhöhen den Aufwand nicht, aber die Projektdauer schon:
 
 <v-clicks>
 
-- man "zählt" etwas, das stark mit dem Aufwand korreliert (z.B. Anzahl an Formularen, Anzahl an anzubindenen Services, ...)
+- man "zählt" etwas, das stark mit dem Aufwand korreliert (z.B. Anzahl an Formularen, Anzahl an anzubindenen Services, Anzahl an Nachrichten und Feldern in Schnittstelle, ...)
 - man kennt den Aufwand pro Ding
 - Gesamtaufwand: Anzahl * Aufwand
 - Ideal: Es gibt mindestens 20 davon, damit sich eventuelle Fehler rausmitteln können
@@ -389,7 +391,7 @@ Manche Dinge erhöhen den Aufwand nicht, aber die Projektdauer schon:
 
 - "hinsetzen, nachdenken, abschätzen"
 - "Umsetzungsexperte" vs. "Schätzexperte"
-- Best case, worst case, most likely case
+- Best case, worst case, most likely case statt Einzelwert für Einbeziehung der Unsicherheit
 - Tipp: sich Zeit nehmen ("1% Regel"), nicht sofort auf Zuruf Einschätzung abgeben
 
 </v-click>
@@ -420,7 +422,7 @@ $Expected Case = \frac{Best Case + (3 * Most Likely Case) + (2 * Worst Case)}{6}
 
 <v-click>
 
-- einfach nur die Best Case und Worst Case Werte addieren klappt nicht!
+- einfach nur die Best Case und Worst Case Werte addieren klappt nicht gut!
 - Stattdessen ein bisschen Mathe:
 - $StdDev_{p} = \frac{(WorstCase_{p} - BestCase_{p})}{TeilerJeNachVertrauen}$
 - Danach: $Varianz_{p} = StdDev_{p}^2$
