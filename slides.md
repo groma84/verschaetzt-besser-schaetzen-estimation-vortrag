@@ -5,8 +5,8 @@ defaults:
   layout: "default-with-footer"
 
 # infos for the footer (on slides with the default-with-footer layout)
-occasion: "enterJS 2024"
-occasionLogoUrl: "images/enterjs.svg"
+occasion: "MD DevDays 2024"
+occasionLogoUrl: "images/magdeburger-dev-days-logo.jpeg"
 company: "MATHEMA GmbH"
 presenter: "Martin Grotz"
 contact: "martin.grotz@mathema.de"
@@ -119,6 +119,18 @@ Zusage: "Wir liefern X zum Zeitpunkt T in Qualität Q"
 
 ---
 
+## Das Ziel der Schätzung
+
+<v-clicks>
+
+- "Herausfinden, ob Ziel, Plan und Aufwand nah genug beieinander liegen, um mit Hilfe der Projektsteuerung realistisch verknüpft werden zu können"
+- Dem Projektmanager eine solide Basis für Entscheidungen liefern
+
+</v-clicks>
+
+
+---
+
 ## Nutzen einer guten Schätzung
 
 <v-click>
@@ -141,16 +153,6 @@ Gute Schätzungen bringen:
 <img src="/images/probleme-kelly-sikkema-CbZC2KVnK8s-unsplash.jpg" class="w-120 object-fit-contain">
 
 
----
-
-## Das Ziel der Schätzung
-
-<v-clicks>
-
-- "Herausfinden, ob Ziel, Plan und Aufwand nah genug beieinander liegen, um mit Hilfe der Projektsteuerung realistisch verknüpft werden zu können"
-- Dem Projektmanager eine solide Basis für Entscheidungen liefern
-
-</v-clicks>
 
 ---
 
@@ -160,7 +162,7 @@ Gute Schätzungen bringen:
 
 - Aussagen wie "zu 90% sicher" machen nur Sinn, wenn es eine Faktenbasis gibt
 - Sicherheit wird fast immer zu optimistisch angegeben (Realität: Leute denken 90%, sind aber eher 30% treffsicher)
-- Folge: Schätzung: je unsicherer, desto größer muss die Spannweite sein
+- Folge: je unsicherer, desto größer muss die Spannweite der Schätzung sein
 
 </v-click>
 
@@ -174,8 +176,8 @@ Gute Schätzungen bringen:
 
 - Exakte Schätzung: "Es dauert 62 PT" 💣
 - Erfolgschance von Projekten: Glockenkurve? 💣
-- Es gibt eine untere Grenze, wie gut es laufen kann, **aber keine obere Grenze, wie schlecht**
 - "Diseconomy of scale" 
+- Es gibt eine untere Grenze, wie gut es laufen kann, **aber keine obere Grenze, wie schlecht**
 
 </v-clicks>
 
@@ -216,7 +218,7 @@ Gute Schätzungen bringen:
   - Projektpläne sind wertlos
   - Steuerungsaufwand steigt (Krisenmeetings, Kommunikation mit dem Kunden, ...)
   - Qualität sinkt
-  - Entwickler schätzen eh schon immer zu optimistisch
+  - Entwickler schätzen eh schon zu optimistisch
 
 </div>
 
@@ -245,9 +247,58 @@ Gute Schätzungen bringen:
 
 </v-click>
 
+<table v-click style="line-height: 0.8rem; font-size: 0.8rem;" class="mt-6">
+  <thead>
+    <tr >
+      <th style="font-weight: bold;">Echte Projektbeispiele aus der MATHEMA
+      </th>
+      <th style="text-align: right; font-weight: bold;">
+      Geschätzt [h]
+      </th>
+       <th style="text-align: right; font-weight: bold;">Tatsächlich [h]
+      </th>
+       <th style="text-align: right; font-weight: bold;">Abweichung [%]
+      </th>
+      <th style="font-weight: bold;">Fehlerquellen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr >
+      <td>Neuentwicklung einer Multiplattform-App</td>
+      <td style="text-align: right;">1.200</td>
+      <td style="text-align: right;">2.715</td>
+      <td style="text-align: right; color: darkorange;">+126</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td>Prototyp-Entwicklung Angular + .NET</td>
+      <td style="text-align: right;">200</td>
+      <td style="text-align: right;">668</td>
+      <td style="text-align: right; color: darkred;">+234</td>
+      <td style="text-align: center;">2, 3</td>
+    </tr>
+    <tr>
+      <td>Ersatz einer Altanwendung durch Neuentwicklung</td>
+      <td style="text-align: right;">784</td>
+      <td style="text-align: right;">4.049</td>
+      <td style="text-align: right; color: red;">+416</td>
+      <td style="text-align: center;">1, 4</td>
+    </tr>
+    <tr>
+      <td>Refactoring/Verbesserungen Bestandssoftware</td>
+      <td style="text-align: right;">556</td>
+      <td style="text-align: right;">643</td>
+      <td style="text-align: right; color: darkgreen;">+16</td>
+      <td style="text-align: center;"></td>
+    </tr>
+    
+  </tbody>
+</table> 
+
+
 ---
 
-## Unsicherheitstrichter
+## Unzureichende Infos: Unsicherheitstrichter
 
 <img src="/images/unsicherheitstrichter.jpg" class="w-130 object-fit-contain" />
 
@@ -275,7 +326,7 @@ Gute Schätzungen bringen:
 - Schätzung basiert z.B. auf "Seniors machen es"
 - Umsetzung wird aber nicht nur von Seniors gemacht
 - Abweichung zwischen Schätzung und echter Dauer  - muss nicht schlimm sein, muss aber berücksichtigt werden (Plan!, Abrechnung)
-- "wir machen das jetzt schon zum x-ten Mal, das geht jetzt bestimmt schneller!"
+- "wir machen das jetzt schon zum x-ten Mal, das geht jetzt bestimmt schneller!" 💣
 
 </v-click>
 
@@ -361,27 +412,27 @@ Manche Dinge erhöhen den Aufwand nicht, aber die Projektdauer schon:
 
 ## Zählen und Rechnen
 
-<v-clicks>
+<v-click>
 
 - man "zählt" etwas, das stark mit dem Aufwand korreliert (z.B. Anzahl an Formularen, Anzahl an anzubindenen Services, Anzahl an Nachrichten und Feldern in Schnittstelle, ...)
 - man kennt den Aufwand pro Ding
 - Gesamtaufwand: Anzahl * Aufwand
 - Ideal: Es gibt mindestens 20 davon, damit sich eventuelle Fehler rausmitteln können
 
-</v-clicks>
+</v-click>
 
 ---
 
 ## Historische Daten
 
-<v-clicks>
+<v-click>
 
 - Vorbedingung für Zählen und Rechnen: Man hat Daten aus der Vergangenheit
 - Vorbedingung für nach und nach besser werdende Schätzungen: Man hat Daten aus der Vergangenheit
 - Je besser man alte Daten erfasst hat (aus dem gleichen Projekt und aus ähnlichen Projekten), desto mehr Möglichkeiten hat man
 - Regelmäßiger Abgleich Schätzung und echte Ergebnisse, um Fehler und Fehlerquellen zu finden
 
-</v-clicks>
+</v-click>
 
 ---
 
@@ -398,15 +449,7 @@ Manche Dinge erhöhen den Aufwand nicht, aber die Projektdauer schon:
 
 ---
 
-## Expected case berechnen
-
-- aus Best case, worst case, most likely case für spätere Rechnungen den Expected case pro Paket berechnen:
-
-$Expected Case = \frac{Best Case + (3 * Most Likely Case) + (2 * Worst Case)}{6}$
-
----
-
-## Bottom-up
+## Bottom-up schätzen
 
 <v-click>
 
@@ -415,6 +458,17 @@ $Expected Case = \frac{Best Case + (3 * Most Likely Case) + (2 * Worst Case)}{6}
 - je früher im Unsicherheitstrichter, desto gröber sind die Pakete. Das muss sich auch in der Schätzung widerspiegeln
 
 </v-click>
+
+
+---
+
+
+## Expected case berechnen
+
+- aus Best case, worst case, most likely case für spätere Rechnungen den Expected case pro Paket berechnen:
+
+$Expected Case = \frac{Best Case + (3 * Most Likely Case) + (2 * Worst Case)}{6}$
+
 
 ---
 
@@ -437,8 +491,8 @@ $Expected Case = \frac{Best Case + (3 * Most Likely Case) + (2 * Worst Case)}{6}
 <table style="line-height: 0.8rem; font-size: 0.8rem;">
   <tbody>
     <tr>
-      <th>"% wirklich in 
-      geschätzter Spannbreite"
+      <th>"Anteil der Pakete die wirklich in 
+      geschätzter Spannbreite liegen"
       </th>
       <th>
       Teiler in Standardabweichung
