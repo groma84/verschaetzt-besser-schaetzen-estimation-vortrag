@@ -5,7 +5,7 @@ defaults:
   layout: "default-with-footer"
 
 # infos for the footer (on slides with the default-with-footer layout)
-occasion: "MD DevDays 2024"
+occasion: "MD-DevDays 2024"
 occasionLogoUrl: "images/magdeburger-dev-days-logo.jpeg"
 company: "MATHEMA GmbH"
 presenter: "Martin Grotz"
@@ -56,13 +56,6 @@ layout: cover
 - Definitionen
 - Probleme
 - Lösungen
-
----
-
-
-# Definitionen
-
-<img src="/images/definitionen-pisit-heng-FQvadXmA524-unsplash.jpg" class="w-120 object-fit-contain">
 
 ---
 
@@ -353,6 +346,7 @@ Nebenaufgaben werden oft vergessen:
   - Setup bei jedem Entwickler
   - Testdaten generieren
   - Setup CI/CD
+  - Dokumentation schreiben
   - Deployment auf dem Endsystem
   - Onboarding
   - Kommunikation mit dem Kunden
@@ -588,7 +582,7 @@ $Expected Case = \frac{Best Case + (3 * Most Likely Case) + (2 * Worst Case)}{6}
 
 ---
 
-## Geschafft
+## Mathe: Geschafft
 
 <img src="/images/mathe-geschafft-dan-cristian-padure-xJLN32FO7AY-unsplash.jpg" class="w-110 object-fit-contain" />
 
@@ -694,7 +688,7 @@ In der Praxis: Tools benutzen (z.B. ein Excel-Sheet)
 
 ---
 
-## Kommunikation
+## Kommunikation der Schätzung
 
 <v-click>
 
@@ -704,6 +698,19 @@ In der Praxis: Tools benutzen (z.B. ein Excel-Sheet)
 - die unwahrscheinlichen Fälle weglassen
 
 </v-click>
+
+---
+
+## Meine Empfehlungen
+
+- Zählen und Rechnen, falls möglich
+- sonst: Expertenschätzung
+- Mindestens zwei Experten mit unterschiedlichen Schwerpunkten
+- Best case, worst case, most likely case schätzen
+- Checklisten verwenden
+- Gruppenreview machen
+- Bei Bestandssoftware: Toolunterstützung
+- Während der Umsetzung: Tatsächliche Aufwände pro Arbeitspaket erfassen
 
 ---
 
