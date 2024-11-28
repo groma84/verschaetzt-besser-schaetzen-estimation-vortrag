@@ -5,8 +5,8 @@ defaults:
   layout: "default-with-footer"
 
 # infos for the footer (on slides with the default-with-footer layout)
-occasion: "MD-DevDays 2024"
-occasionLogoUrl: "images/magdeburger-dev-days-logo.jpeg"
+occasion: "DCN Meetup 12/2024"
+occasionLogoUrl: "images/dcn.svg"
 company: "MATHEMA GmbH"
 presenter: "Martin Grotz"
 contact: "martin.grotz@mathema.de"
