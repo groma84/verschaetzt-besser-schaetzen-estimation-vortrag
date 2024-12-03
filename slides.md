@@ -708,9 +708,10 @@ In der Praxis: Tools benutzen (z.B. ein Excel-Sheet)
 - Mindestens zwei Experten mit unterschiedlichen Schwerpunkten
 - Best case, worst case, most likely case schätzen
 - Checklisten verwenden
+- sich Zeit nehmen
 - Gruppenreview machen
 - Bei Bestandssoftware: Toolunterstützung
-- Während der Umsetzung: Tatsächliche Aufwände pro Arbeitspaket erfassen
+- Während der Umsetzung: Tatsächliche Aufwände pro Arbeitspaket miterfassen, mit Schätzung vergleichen
 
 ---
 
@@ -732,15 +733,11 @@ In der Praxis: Tools benutzen (z.B. ein Excel-Sheet)
   <tbody>
     <tr>
       <td>E-Mail</td>
-      <td><a href="mailto:martin.grotz@mathema.de">martin.grotz@mathema.de</a></td>
+      <td><a href="mailto:martin.grotz@gmx.de">martin.grotz@gmx.de</a></td>
     </tr>
      <tr>
       <td>LinkedIn</td>
       <td><a href="https://www.linkedin.com/in/martin-grotz/">https://www.linkedin.com/in/martin-grotz/</a></td>
-    </tr>
-    <tr>
-      <td>MATHEMA Github</td>
-      <td><a href="https://github.com/MATHEMA-GmbH/">MATHEMA-GmbH</a></td>
     </tr>
     <tr>
       <td>Privates Github</td>
