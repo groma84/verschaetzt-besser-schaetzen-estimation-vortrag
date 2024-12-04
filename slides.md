@@ -699,10 +699,12 @@ In der Praxis: Tools benutzen (z.B. ein Excel-Sheet)
 
 </v-click>
 
+
 ---
 
 ## Meine Empfehlungen
 
+- vorab abklären: Wozu dient die Schätzung?
 - Zählen und Rechnen, falls möglich
 - sonst: Expertenschätzung
 - Mindestens zwei Experten mit unterschiedlichen Schwerpunkten
@@ -712,6 +714,7 @@ In der Praxis: Tools benutzen (z.B. ein Excel-Sheet)
 - Gruppenreview machen
 - Bei Bestandssoftware: Toolunterstützung
 - Während der Umsetzung: Tatsächliche Aufwände pro Arbeitspaket miterfassen, mit Schätzung vergleichen
+
 
 ---
 
@@ -746,4 +749,3 @@ In der Praxis: Tools benutzen (z.B. ein Excel-Sheet)
   </tbody>
   </table>
 </div>
-
